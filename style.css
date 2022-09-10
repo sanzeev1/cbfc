@@ -1,0 +1,253 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;    
+
+}
+
+@media print{
+    @page {
+      size: auto;    /*auto is the initial value */
+      size: A4 landscape;
+      margin: 1rem 2rem; /* this affects the margin in the printer settings*/
+     
+    }
+  } 
+  
+  @media print {
+      .pagebreak {
+          clear: both;
+          page-break-after: always;
+      }
+  }
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.d-flex{
+
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.signature{
+    width: 150px ;
+}
+.signature img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.p-0{
+    padding: 0;
+}
+
+
+.header p, .header h2{
+    margin: 0;
+    padding:0;  
+}
+.header p{
+    font-size: 18px!important;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+
+.tag{
+    background-color: #e11e29;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    right: 10rem;
+    -webkit-print-color-adjust: exact; 
+
+}
+
+
+
+
+
+.head p {
+    margin-bottom: 5px;
+}
+
+
+/* table tr:nth-child(odd) td:first-child{
+    font-weight: 600;
+}
+
+.table-bordered {
+    border-collapse: collapse;
+}
+.table-bordered td, .table-bordered th {
+    border-collapse: collapse;
+    border: 1px solid #333;
+    text-align: left;
+    padding: 16px;
+} */
+
+ .fs-14{
+    font-size: 14px;
+ }
+ .fs-12{
+    font-size: 12px;
+ }
+ .fs-13{
+    font-size: 13px;
+ }
+p{
+    font-size: 14px;
+}
+ .mt-3{
+    margin-top:  2rem;
+ }
+.mt-2{
+    margin-top: 1rem;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mt-0{
+    margin-top: 0;
+}
+.ml-0{
+    margin-left: 0;
+}
+.mr-0{
+    margin-right: 0;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mr-1{
+    margin-right: 1rem;
+}
+.mb-5px{
+    margin-bottom: 5px;
+}
+.mb-10px{
+    margin-bottom: 10px;
+}
+.mb-30px{
+    margin-bottom: 30px;
+}
+.mb-25px{
+    margin-bottom: 25px;
+}
+.mb-5px{
+    margin-bottom: 5px;
+}
+.ml-100px{
+    margin-left: 100px;
+}
+.ml-1{
+    margin-left: 1rem;
+}
+.pb-0{
+    padding-bottom: 0;
+}
+.pt-0{
+    padding-top: 0;
+}
+.pl-0{
+    padding-left: 0%;
+}
+.pr-0{
+    padding-right: 0;
+}
+.pr-3{
+    padding-left: 2rem;
+}
+figure{
+    margin:0;
+}
+ .container{
+     margin: auto   ;
+    max-width: 1050px;
+ }
+
+ .logo img{
+     height:100px ;
+ }
+ .justify-content-center{
+     justify-content: center;
+ }
+ 
+ .justify-content-end{
+     justify-content: end;
+ }
+
+ .float-right{
+     float: right;
+ }
+
+ .bg-overlay {
+    position: relative;
+ }
+ .bg-overlay img{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-260px, 200px);
+    opacity: 0.06;
+    z-index: -1;
+    -webkit-transform: translate(-260px, 200px);
+    -moz-transform: translate(-260px, 200px);
+    -ms-transform: translate(-260px, 200px);
+    -o-transform: translate(-260px, 200px);
+}
+.border{
+    border: 1.5px solid #78BC61;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+}
+.w-56{
+    width: 56%;
+}
+.checked{
+    color: #78BC61;
+    position: absolute;
+    left: -9px;
+    top: -9px;
+    font-size: 17px;
+    background: white;
+    border-radius: 50px;
+}
+
+.position-relative{position: relative;}
+.m-auto{
+    margin: auto;
+}
+
+.text-color{
+    color: #e00210;
+}
+
+.btn-print{
+    border: none;
+    background: #e00210;
+    padding: 10px 15px;
+    float: left;
+    color: white;
+    border-radius: 5px;
+    -webkit-print-color-adjust: exact; 
+
+}
+.btn-print i{
+    margin-right: 10px;
+}
