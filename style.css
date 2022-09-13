@@ -1,6 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;    
+    font-size: 13px;  
+    padding: 20px;  
+
+    border: 2px solid; 
+    border-image-slice: 61 58 51 48;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url('./image/frame.svg')
 
 }
 
@@ -8,7 +16,8 @@ body{
     @page {
       size: auto;    /*auto is the initial value */
       size: A4 landscape;
-      margin: 1rem 2rem; /* this affects the margin in the printer settings*/
+      margin: 0.5rem 0.8rem; /* this affects the margin in the printer settings*/
+      padding: 10rem;
      
     }
   } 
@@ -194,7 +203,7 @@ figure{
 }
  .container{
      margin: auto   ;
-    max-width: 1050px;
+    max-width: 1150px;
  }
 
  .logo img{
